@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showSideBar(sender: AnyObject) {
+        print("show side bar")
+        let sideBarController = SideBarController()
+        sideBarController.showInViewController(self, animated: true)
+        
+    }
 
 }
 

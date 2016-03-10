@@ -14,6 +14,8 @@
 		FA5B0C9A1C8FEDBE009CB3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B0C981C8FEDBE009CB3A2 /* LaunchScreen.storyboard */; };
 		FA5B0CA51C8FEDBE009CB3A2 /* zhihudailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CA41C8FEDBE009CB3A2 /* zhihudailyTests.swift */; };
 		FA5B0CB01C8FEDBE009CB3A2 /* zhihudailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CAF1C8FEDBE009CB3A2 /* zhihudailyUITests.swift */; };
+		FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */; };
+		FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA5B0CAB1C8FEDBE009CB3A2 /* zhihudailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhihudailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B0CAF1C8FEDBE009CB3A2 /* zhihudailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhihudailyUITests.swift; sourceTree = "<group>"; };
 		FA5B0CB11C8FEDBE009CB3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				FA5B0C8F1C8FEDBE009CB3A2 /* AppDelegate.swift */,
 				FA5B0C911C8FEDBE009CB3A2 /* ViewController.swift */,
 				FA5B0C931C8FEDBE009CB3A2 /* Main.storyboard */,
+				FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */,
+				FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */,
 				FA5B0C961C8FEDBE009CB3A2 /* Assets.xcassets */,
 				FA5B0C981C8FEDBE009CB3A2 /* LaunchScreen.storyboard */,
 				FA5B0C9B1C8FEDBE009CB3A2 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */,
+				FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */,
 				FA5B0C921C8FEDBE009CB3A2 /* ViewController.swift in Sources */,
 				FA5B0C901C8FEDBE009CB3A2 /* AppDelegate.swift in Sources */,
 			);
