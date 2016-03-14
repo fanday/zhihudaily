@@ -16,6 +16,7 @@
 		FA5B0CB01C8FEDBE009CB3A2 /* zhihudailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CAF1C8FEDBE009CB3A2 /* zhihudailyUITests.swift */; };
 		FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */; };
 		FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */; };
+		FA5B0D081C96BDF1009CB3A2 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FA5B0CB11C8FEDBE009CB3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarController.swift; sourceTree = "<group>"; };
+		FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */,
 				FA5B0C961C8FEDBE009CB3A2 /* Assets.xcassets */,
 				FA5B0C981C8FEDBE009CB3A2 /* LaunchScreen.storyboard */,
+				FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */,
 				FA5B0C9B1C8FEDBE009CB3A2 /* Info.plist */,
 			);
 			path = zhihudaily;
@@ -264,6 +267,7 @@
 			files = (
 				FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */,
 				FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */,
+				FA5B0D081C96BDF1009CB3A2 /* LaunchScreenController.swift in Sources */,
 				FA5B0C921C8FEDBE009CB3A2 /* ViewController.swift in Sources */,
 				FA5B0C901C8FEDBE009CB3A2 /* AppDelegate.swift in Sources */,
 			);
@@ -490,6 +494,7 @@
 				FA5B0CB61C8FEDBE009CB3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5B0CB71C8FEDBE009CB3A2 /* Build configuration list for PBXNativeTarget "zhihudailyTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				FA5B0CB91C8FEDBE009CB3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5B0CBA1C8FEDBE009CB3A2 /* Build configuration list for PBXNativeTarget "zhihudailyUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				FA5B0CBC1C8FEDBE009CB3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

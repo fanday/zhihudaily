@@ -8,7 +8,7 @@
 
 import UIKit
 public class SideBarController:UIViewController{
-    private var width: CGFloat = 350.0
+    private var width: CGFloat = 200.0
     private var tableView = UITableView()
     
     private func addToParentViewController(viewController: UIViewController, callingAppearanceMethods: Bool){
