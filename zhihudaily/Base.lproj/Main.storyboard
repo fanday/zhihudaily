@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Lauch Screen View Controller-->
@@ -23,6 +22,9 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Uog-wy-qvy">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="136" y="513" width="328" height="50"/>
+                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNk-yI-nI5">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -47,27 +49,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="OYh-TY-wm1" secondAttribute="trailing" id="A0G-SJ-BwP"/>
-                            <constraint firstItem="OYh-TY-wm1" firstAttribute="width" secondItem="LTP-pY-Dc9" secondAttribute="width" id="DtV-tf-i2d"/>
+                            <constraint firstItem="Uog-wy-qvy" firstAttribute="top" secondItem="OYh-TY-wm1" secondAttribute="bottom" constant="-287" id="CTm-ht-p0b"/>
+                            <constraint firstItem="OYh-TY-wm1" firstAttribute="centerX" secondItem="LTP-pY-Dc9" secondAttribute="centerX" id="ExP-ID-mrc"/>
                             <constraint firstItem="wNk-yI-nI5" firstAttribute="top" secondItem="Uog-wy-qvy" secondAttribute="bottom" constant="18" id="Mx5-UV-HBY">
                                 <variation key="heightClass=regular" constant="21"/>
                             </constraint>
                             <constraint firstItem="xgm-mw-dqv" firstAttribute="top" secondItem="Uog-wy-qvy" secondAttribute="bottom" constant="74" id="O36-ze-xue">
                                 <variation key="heightClass=regular" constant="237"/>
                             </constraint>
+                            <constraint firstItem="OYh-TY-wm1" firstAttribute="width" secondItem="LTP-pY-Dc9" secondAttribute="width" id="Q0S-ZT-gbD"/>
+                            <constraint firstItem="Uog-wy-qvy" firstAttribute="centerX" secondItem="OYh-TY-wm1" secondAttribute="centerX" id="QDL-Gy-vD9"/>
                             <constraint firstItem="wNk-yI-nI5" firstAttribute="centerX" secondItem="OYh-TY-wm1" secondAttribute="centerX" id="S7V-0I-ndo"/>
-                            <constraint firstItem="Uog-wy-qvy" firstAttribute="top" secondItem="PVF-jn-fkR" secondAttribute="bottom" constant="578" id="bT3-EZ-Hyy">
-                                <variation key="heightClass=regular" constant="493"/>
-                            </constraint>
-                            <constraint firstItem="OYh-TY-wm1" firstAttribute="top" secondItem="PVF-jn-fkR" secondAttribute="bottom" id="bor-S2-pB7">
-                                <variation key="heightClass=regular" constant="-20"/>
-                            </constraint>
-                            <constraint firstItem="Uog-wy-qvy" firstAttribute="centerX" secondItem="OYh-TY-wm1" secondAttribute="centerX" id="jvo-cD-urU">
-                                <variation key="heightClass=regular" constant="0.0"/>
-                            </constraint>
-                            <constraint firstItem="OYh-TY-wm1" firstAttribute="height" secondItem="LTP-pY-Dc9" secondAttribute="height" id="l5C-RK-Ajk"/>
-                            <constraint firstItem="Uog-wy-qvy" firstAttribute="leading" secondItem="LTP-pY-Dc9" secondAttribute="leadingMargin" constant="52" id="pst-4j-hiT">
-                                <variation key="heightClass=regular" constant="116"/>
-                            </constraint>
+                            <constraint firstItem="OYh-TY-wm1" firstAttribute="centerY" secondItem="LTP-pY-Dc9" secondAttribute="centerY" id="XYa-J6-hU0"/>
+                            <constraint firstItem="OYh-TY-wm1" firstAttribute="height" secondItem="LTP-pY-Dc9" secondAttribute="height" id="ZxO-9y-YG9"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -77,12 +71,12 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="A0G-SJ-BwP"/>
-                                <exclude reference="DtV-tf-i2d"/>
-                                <exclude reference="bor-S2-pB7"/>
-                                <exclude reference="l5C-RK-Ajk"/>
-                                <exclude reference="bT3-EZ-Hyy"/>
-                                <exclude reference="jvo-cD-urU"/>
-                                <exclude reference="pst-4j-hiT"/>
+                                <exclude reference="ExP-ID-mrc"/>
+                                <exclude reference="Q0S-ZT-gbD"/>
+                                <exclude reference="XYa-J6-hU0"/>
+                                <exclude reference="ZxO-9y-YG9"/>
+                                <exclude reference="CTm-ht-p0b"/>
+                                <exclude reference="QDL-Gy-vD9"/>
                                 <exclude reference="Mx5-UV-HBY"/>
                                 <exclude reference="S7V-0I-ndo"/>
                                 <exclude reference="O36-ze-xue"/>
@@ -96,12 +90,12 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="A0G-SJ-BwP"/>
-                                <include reference="DtV-tf-i2d"/>
-                                <include reference="bor-S2-pB7"/>
-                                <include reference="l5C-RK-Ajk"/>
-                                <include reference="bT3-EZ-Hyy"/>
-                                <include reference="jvo-cD-urU"/>
-                                <include reference="pst-4j-hiT"/>
+                                <include reference="ExP-ID-mrc"/>
+                                <include reference="Q0S-ZT-gbD"/>
+                                <include reference="XYa-J6-hU0"/>
+                                <include reference="ZxO-9y-YG9"/>
+                                <include reference="CTm-ht-p0b"/>
+                                <include reference="QDL-Gy-vD9"/>
                                 <include reference="Mx5-UV-HBY"/>
                                 <include reference="S7V-0I-ndo"/>
                                 <include reference="O36-ze-xue"/>
