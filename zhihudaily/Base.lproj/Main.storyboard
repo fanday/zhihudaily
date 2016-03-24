@@ -22,9 +22,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Uog-wy-qvy">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="136" y="513" width="328" height="50"/>
-                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNk-yI-nI5">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -70,6 +67,9 @@
                                 <exclude reference="wNk-yI-nI5"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="O36-ze-xue"/>
+                                <exclude reference="Mx5-UV-HBY"/>
+                                <exclude reference="S7V-0I-ndo"/>
                                 <exclude reference="A0G-SJ-BwP"/>
                                 <exclude reference="ExP-ID-mrc"/>
                                 <exclude reference="Q0S-ZT-gbD"/>
@@ -77,9 +77,6 @@
                                 <exclude reference="ZxO-9y-YG9"/>
                                 <exclude reference="CTm-ht-p0b"/>
                                 <exclude reference="QDL-Gy-vD9"/>
-                                <exclude reference="Mx5-UV-HBY"/>
-                                <exclude reference="S7V-0I-ndo"/>
-                                <exclude reference="O36-ze-xue"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -89,6 +86,9 @@
                                 <include reference="wNk-yI-nI5"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="O36-ze-xue"/>
+                                <include reference="Mx5-UV-HBY"/>
+                                <include reference="S7V-0I-ndo"/>
                                 <include reference="A0G-SJ-BwP"/>
                                 <include reference="ExP-ID-mrc"/>
                                 <include reference="Q0S-ZT-gbD"/>
@@ -96,9 +96,6 @@
                                 <include reference="ZxO-9y-YG9"/>
                                 <include reference="CTm-ht-p0b"/>
                                 <include reference="QDL-Gy-vD9"/>
-                                <include reference="Mx5-UV-HBY"/>
-                                <include reference="S7V-0I-ndo"/>
-                                <include reference="O36-ze-xue"/>
                             </mask>
                         </variation>
                     </view>

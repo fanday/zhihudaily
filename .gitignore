@@ -1,0 +1,114 @@
+Podfile.lock
+Pods/Manifest.lock
+Pods/Alamofire/LICENSE
+Pods/Alamofire/README.md
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/Download.swift
+Pods/Alamofire/Source/Error.swift
+Pods/Alamofire/Source/Manager.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/Stream.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/Upload.swift
+Pods/Alamofire/Source/Validation.swift
+Pods/AlamofireImage/LICENSE
+Pods/AlamofireImage/README.md
+Pods/AlamofireImage/Source/Image.swift
+Pods/AlamofireImage/Source/ImageCache.swift
+Pods/AlamofireImage/Source/ImageDownloader.swift
+Pods/AlamofireImage/Source/ImageFilter.swift
+Pods/AlamofireImage/Source/Request+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift
+Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift
+Pods/Local Podspecs/SwiftyJSON.podspec.json
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/Alamofire.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/AlamofireImage.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/Pods-zhihudaily.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/Pods-zhihudailyTests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/Pods-zhihudailyUITests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/ReSwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/SwiftyJSON.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/newmember.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/ReSwift/LICENSE.md
+Pods/ReSwift/README.md
+Pods/ReSwift/ReSwift/CoreTypes/Action.swift
+Pods/ReSwift/ReSwift/CoreTypes/CombinedReducer.swift
+Pods/ReSwift/ReSwift/CoreTypes/Middleware.swift
+Pods/ReSwift/ReSwift/CoreTypes/Reducer.swift
+Pods/ReSwift/ReSwift/CoreTypes/State.swift
+Pods/ReSwift/ReSwift/CoreTypes/Store.swift
+Pods/ReSwift/ReSwift/CoreTypes/StoreSubscriber.swift
+Pods/ReSwift/ReSwift/CoreTypes/StoreType.swift
+Pods/ReSwift/ReSwift/CoreTypes/Subscription.swift
+Pods/ReSwift/ReSwift/Utils/Coding.swift
+Pods/ReSwift/ReSwift/Utils/TypeHelper.swift
+Pods/SwiftyJSON/LICENSE
+Pods/SwiftyJSON/README.md
+Pods/SwiftyJSON/Source/SwiftyJSON.swift
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/Alamofire/Info.plist
+Pods/Target Support Files/AlamofireImage/AlamofireImage-dummy.m
+Pods/Target Support Files/AlamofireImage/AlamofireImage-prefix.pch
+Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h
+Pods/Target Support Files/AlamofireImage/AlamofireImage.modulemap
+Pods/Target Support Files/AlamofireImage/AlamofireImage.xcconfig
+Pods/Target Support Files/AlamofireImage/Info.plist
+Pods/Target Support Files/Pods-zhihudaily/Info.plist
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-acknowledgements.markdown
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-acknowledgements.plist
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-dummy.m
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-frameworks.sh
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-resources.sh
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-umbrella.h
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily.debug.xcconfig
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily.modulemap
+Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily.release.xcconfig
+Pods/Target Support Files/Pods-zhihudailyTests/Info.plist
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-acknowledgements.markdown
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-acknowledgements.plist
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-dummy.m
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-frameworks.sh
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-resources.sh
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-umbrella.h
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests.debug.xcconfig
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests.modulemap
+Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests.release.xcconfig
+Pods/Target Support Files/Pods-zhihudailyUITests/Info.plist
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-acknowledgements.markdown
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-acknowledgements.plist
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-dummy.m
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-frameworks.sh
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-resources.sh
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-umbrella.h
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests.debug.xcconfig
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests.modulemap
+Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests.release.xcconfig
+Pods/Target Support Files/ReSwift/Info.plist
+Pods/Target Support Files/ReSwift/ReSwift-dummy.m
+Pods/Target Support Files/ReSwift/ReSwift-prefix.pch
+Pods/Target Support Files/ReSwift/ReSwift-umbrella.h
+Pods/Target Support Files/ReSwift/ReSwift.modulemap
+Pods/Target Support Files/ReSwift/ReSwift.xcconfig
+Pods/Target Support Files/SwiftyJSON/Info.plist
+Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m
+Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch
+Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h
+Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap
+Pods/Target Support Files/SwiftyJSON/SwiftyJSON.xcconfig
+zhihudaily.xcodeproj/xcuserdata/newmember.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+zhihudaily.xcworkspace/contents.xcworkspacedata
+zhihudaily.xcworkspace/xcuserdata/newmember.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist

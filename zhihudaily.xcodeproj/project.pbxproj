@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2515A5303A8753E803B0CCA7 /* Pods_zhihudaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E68C811E5E9D483431F84E /* Pods_zhihudaily.framework */; };
+		29F9DF70099AFD218D999893 /* Pods_zhihudailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E989302BFF1A6B8B8CE7D9 /* Pods_zhihudailyUITests.framework */; };
+		EC3DC18E80ACADE1D5591CB0 /* Pods_zhihudailyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5C4781818DAE872394AC30 /* Pods_zhihudailyTests.framework */; };
 		FA5B0C901C8FEDBE009CB3A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C8F1C8FEDBE009CB3A2 /* AppDelegate.swift */; };
 		FA5B0C921C8FEDBE009CB3A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0C911C8FEDBE009CB3A2 /* ViewController.swift */; };
 		FA5B0C951C8FEDBE009CB3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5B0C931C8FEDBE009CB3A2 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 		FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */; };
 		FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */; };
 		FA5B0D081C96BDF1009CB3A2 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */; };
+		FAD0E42A1CA16EC500868474 /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0E4291CA16EC500868474 /* state.swift */; };
+		FAD0E42C1CA16F8000868474 /* action.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0E42B1CA16F8000868474 /* action.swift */; };
+		FAD0E42E1CA1708300868474 /* reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0E42D1CA1708300868474 /* reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E68C811E5E9D483431F84E /* Pods_zhihudaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihudaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224210D5EAC0589E389868CF /* Pods-zhihudailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudailyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		259E92D12089BB3E6BC8D250 /* Pods-zhihudaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily.release.xcconfig"; sourceTree = "<group>"; };
+		4D5C4781818DAE872394AC30 /* Pods_zhihudailyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihudailyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790AB623834D10F3CB28AD00 /* Pods-zhihudaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily.debug.xcconfig"; sourceTree = "<group>"; };
+		7935C5D4A70C802C6BCBCA7A /* Pods-zhihudailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudailyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC727582A675E7D44C56F101 /* Pods-zhihudailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudailyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		F38A9245FA673ED122143700 /* Pods-zhihudailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhihudailyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6E989302BFF1A6B8B8CE7D9 /* Pods_zhihudailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhihudailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B0C8C1C8FEDBE009CB3A2 /* zhihudaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhihudaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5B0C8F1C8FEDBE009CB3A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5B0C911C8FEDBE009CB3A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +68,9 @@
 		FA5B0CBD1C901649009CB3A2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FA5B0CBF1C916A0D009CB3A2 /* SideBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarController.swift; sourceTree = "<group>"; };
 		FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		FAD0E4291CA16EC500868474 /* state.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
+		FAD0E42B1CA16F8000868474 /* action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = action.swift; sourceTree = "<group>"; };
+		FAD0E42D1CA1708300868474 /* reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2515A5303A8753E803B0CCA7 /* Pods_zhihudaily.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3DC18E80ACADE1D5591CB0 /* Pods_zhihudailyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F9DF70099AFD218D999893 /* Pods_zhihudailyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EA8BE77F051B851418A4DCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790AB623834D10F3CB28AD00 /* Pods-zhihudaily.debug.xcconfig */,
+				259E92D12089BB3E6BC8D250 /* Pods-zhihudaily.release.xcconfig */,
+				224210D5EAC0589E389868CF /* Pods-zhihudailyTests.debug.xcconfig */,
+				EC727582A675E7D44C56F101 /* Pods-zhihudailyTests.release.xcconfig */,
+				7935C5D4A70C802C6BCBCA7A /* Pods-zhihudailyUITests.debug.xcconfig */,
+				F38A9245FA673ED122143700 /* Pods-zhihudailyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C8E1359C44A1CE63A29B8FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E68C811E5E9D483431F84E /* Pods_zhihudaily.framework */,
+				4D5C4781818DAE872394AC30 /* Pods_zhihudailyTests.framework */,
+				F6E989302BFF1A6B8B8CE7D9 /* Pods_zhihudailyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA5B0C831C8FEDBD009CB3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +131,8 @@
 				FA5B0CA31C8FEDBE009CB3A2 /* zhihudailyTests */,
 				FA5B0CAE1C8FEDBE009CB3A2 /* zhihudailyUITests */,
 				FA5B0C8D1C8FEDBE009CB3A2 /* Products */,
+				4EA8BE77F051B851418A4DCE /* Pods */,
+				7C8E1359C44A1CE63A29B8FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +158,9 @@
 				FA5B0C981C8FEDBE009CB3A2 /* LaunchScreen.storyboard */,
 				FA5B0D071C96BDF1009CB3A2 /* LaunchScreenController.swift */,
 				FA5B0C9B1C8FEDBE009CB3A2 /* Info.plist */,
+				FAD0E4291CA16EC500868474 /* state.swift */,
+				FAD0E42D1CA1708300868474 /* reducer.swift */,
+				FAD0E42B1CA16F8000868474 /* action.swift */,
 			);
 			path = zhihudaily;
 			sourceTree = "<group>";
@@ -141,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5B0CB41C8FEDBE009CB3A2 /* Build configuration list for PBXNativeTarget "zhihudaily" */;
 			buildPhases = (
+				5706BBA5298D9B006CBD02A7 /* Check Pods Manifest.lock */,
 				FA5B0C881C8FEDBD009CB3A2 /* Sources */,
 				FA5B0C891C8FEDBD009CB3A2 /* Frameworks */,
 				FA5B0C8A1C8FEDBD009CB3A2 /* Resources */,
+				88B329FBC832915D800D6C0F /* Embed Pods Frameworks */,
+				1AC29DA1B9274A26CEC2D834 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5B0CB71C8FEDBE009CB3A2 /* Build configuration list for PBXNativeTarget "zhihudailyTests" */;
 			buildPhases = (
+				637FEBCEECF9A4391650F0A3 /* Check Pods Manifest.lock */,
 				FA5B0C9C1C8FEDBE009CB3A2 /* Sources */,
 				FA5B0C9D1C8FEDBE009CB3A2 /* Frameworks */,
 				FA5B0C9E1C8FEDBE009CB3A2 /* Resources */,
+				62815E8E94C8B4F5FB5D029D /* Embed Pods Frameworks */,
+				C6D9753DE50B8EF00EDF9663 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5B0CBA1C8FEDBE009CB3A2 /* Build configuration list for PBXNativeTarget "zhihudailyUITests" */;
 			buildPhases = (
+				72FD76666C9255D4D3869FCB /* Check Pods Manifest.lock */,
 				FA5B0CA71C8FEDBE009CB3A2 /* Sources */,
 				FA5B0CA81C8FEDBE009CB3A2 /* Frameworks */,
 				FA5B0CA91C8FEDBE009CB3A2 /* Resources */,
+				0346B7C2B2C050CB7493274A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +317,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0346B7C2B2C050CB7493274A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhihudailyUITests/Pods-zhihudailyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC29DA1B9274A26CEC2D834 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5706BBA5298D9B006CBD02A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62815E8E94C8B4F5FB5D029D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		637FEBCEECF9A4391650F0A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72FD76666C9255D4D3869FCB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88B329FBC832915D800D6C0F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhihudaily/Pods-zhihudaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D9753DE50B8EF00EDF9663 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhihudailyTests/Pods-zhihudailyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA5B0C881C8FEDBD009CB3A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,9 +447,12 @@
 			files = (
 				FA5B0CC01C916A0D009CB3A2 /* SideBarController.swift in Sources */,
 				FA5B0CBE1C901649009CB3A2 /* TabBarController.swift in Sources */,
+				FAD0E42E1CA1708300868474 /* reducer.swift in Sources */,
 				FA5B0D081C96BDF1009CB3A2 /* LaunchScreenController.swift in Sources */,
 				FA5B0C921C8FEDBE009CB3A2 /* ViewController.swift in Sources */,
 				FA5B0C901C8FEDBE009CB3A2 /* AppDelegate.swift in Sources */,
+				FAD0E42C1CA16F8000868474 /* action.swift in Sources */,
+				FAD0E42A1CA16EC500868474 /* state.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +590,7 @@
 		};
 		FA5B0CB51C8FEDBE009CB3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790AB623834D10F3CB28AD00 /* Pods-zhihudaily.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zhihudaily/Info.plist;
@@ -418,6 +602,7 @@
 		};
 		FA5B0CB61C8FEDBE009CB3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259E92D12089BB3E6BC8D250 /* Pods-zhihudaily.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zhihudaily/Info.plist;
@@ -429,6 +614,7 @@
 		};
 		FA5B0CB81C8FEDBE009CB3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224210D5EAC0589E389868CF /* Pods-zhihudailyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zhihudailyTests/Info.plist;
@@ -441,6 +627,7 @@
 		};
 		FA5B0CB91C8FEDBE009CB3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC727582A675E7D44C56F101 /* Pods-zhihudailyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zhihudailyTests/Info.plist;
@@ -453,6 +640,7 @@
 		};
 		FA5B0CBB1C8FEDBE009CB3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7935C5D4A70C802C6BCBCA7A /* Pods-zhihudailyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zhihudailyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -465,6 +653,7 @@
 		};
 		FA5B0CBC1C8FEDBE009CB3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38A9245FA673ED122143700 /* Pods-zhihudailyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zhihudailyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

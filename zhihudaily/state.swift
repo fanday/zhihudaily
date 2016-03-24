@@ -6,4 +6,8 @@
 //  Copyright © 2016年 Yungui Dai. All rights reserved.
 //
 
-import Foundation
+import ReSwift
+
+struct AppState:StateType {
+    var splashImageUrl:String?
+}
