@@ -11,7 +11,7 @@ import ReSwift
 import AlamofireImage
 import Alamofire
 
-var mainStore = Store(reducer:AppReducer(), state:AppState(splashImageUrl:nil))
+var mainStore = Store(reducer:AppReducer(), state:AppState(splashImageInfo:nil))
 
 class LauchScreenViewController: UIViewController,StoreSubscriber {
     @IBOutlet weak var splashImage: UIImageView!
@@ -26,7 +26,7 @@ class LauchScreenViewController: UIViewController,StoreSubscriber {
     
     override func viewWillAppear(animated: Bool) {
         mainStore.subscribe(self)
-        mainStore.dispatch(SplashImageUrlActionGet())
+        mainStore.dispatch(SplashImageInfoActionGet(store:mainStore))
         
     }
     
@@ -36,9 +36,9 @@ class LauchScreenViewController: UIViewController,StoreSubscriber {
     
     func newState(state: AppState) {
         print("new state>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-        print("\(state.splashImageUrl)")
-        if let _ = state.splashImageUrl{
-            Alamofire.request(.GET, state.splashImageUrl!)
+        print("\(state.splashImageInfo?.splashImageUrl)")
+        if let _ = state.splashImageInfo?.splashImageUrl{
+            Alamofire.request(.GET, state.splashImageInfo!.splashImageUrl!)
                 .responseImage { response in
                     debugPrint(response)
                     
@@ -52,6 +52,11 @@ class LauchScreenViewController: UIViewController,StoreSubscriber {
                     }
             }
             
+            
+        }
+        
+        if let _ = state.splashImageInfo?.author{
+            author.text = state.splashImageInfo?.author
         }
     }
     

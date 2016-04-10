@@ -14,14 +14,24 @@ var API_COVER_URL = "https://news-at.zhihu.com/api/4/start-image/1080*1776"
 
 struct AppReducer:Reducer {
     func handleAction(action: Action, state:AppState?)->AppState{
-        return AppState(splashImageUrl:splashImageUrlReducer(action,splashImageUrl:state?.splashImageUrl))
+        return AppState(splashImageInfo:splashImageUrlReducer(action,splashImageInfo:state?.splashImageInfo))
     }
 }
 
-func splashImageUrlReducer(action:Action, splashImageUrl: String?)->String?{
-    var splashImageUrl = splashImageUrl ?? nil
+func splashImageUrlReducer(action:Action, splashImageInfo: SplashImageInfo?)->SplashImageInfo?{
+    
+    //FIXME: 
+    //handle state init when ReswiftInit Action
+    var currentSplashImageInfo:SplashImageInfo? = SplashImageInfo(splashImageUrl:String(),author: String())
+    if let _ = splashImageInfo{
+        currentSplashImageInfo!.splashImageUrl = splashImageInfo?.splashImageUrl ?? nil
+        currentSplashImageInfo!.author = splashImageInfo?.author ?? nil
+    
+    }
+    
+    
     switch action{
-    case _ as SplashImageUrlActionGet:
+    case let splashImageInfoActionGet as SplashImageInfoActionGet:
         print("make a request")
         Alamofire.request(.GET, API_COVER_URL)
             .responseJSON { response in
@@ -34,22 +44,24 @@ func splashImageUrlReducer(action:Action, splashImageUrl: String?)->String?{
                     print("JSON: \(reJSON)")
                     let json = JSON(reJSON)
                     print(json)
-                    splashImageUrl = json["img"].string
-                    print("url is \(splashImageUrl)")
+                    currentSplashImageInfo!.splashImageUrl = json["img"].string
+                    currentSplashImageInfo!.author = json["text"].string
+                    print("url is \(currentSplashImageInfo!.splashImageUrl)")
+                    print("author is:\(currentSplashImageInfo!.author)")
                     dispatch_async(dispatch_get_main_queue()) {
-                        mainStore.dispatch(SetSplashImageUrl(splashImageUrl: splashImageUrl!))
+                        splashImageInfoActionGet.store!.dispatch(SetSplashImageInfo(splashImageInfo: currentSplashImageInfo!,store:splashImageInfoActionGet.store))
                     }
                 }
         }
         print("a request is made")
 
-    case let action as SetSplashImageUrl:
-        return action.splashImageUrl
+    case let action as SetSplashImageInfo:
+        return action.splashImageInfo
         
     default:
         break
     }
     
-    return splashImageUrl
+    return currentSplashImageInfo
     
 }

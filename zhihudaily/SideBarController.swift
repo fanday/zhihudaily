@@ -65,7 +65,7 @@ public class SideBarController:UIViewController{
         super.loadView()
         view.backgroundColor = UIColor.clearColor()
         
-        let tapGesture:UITapGestureRecognizer! = UITapGestureRecognizer(target: self, action: "handleTap:")
+        let tapGesture:UITapGestureRecognizer! = UITapGestureRecognizer(target: self, action: #selector(SideBarController.handleTap(_:)))
         view.addGestureRecognizer(tapGesture!)
     }
     

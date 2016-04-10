@@ -8,6 +8,12 @@
 
 import ReSwift
 
-struct AppState:StateType {
+struct SplashImageInfo{
     var splashImageUrl:String?
+    var author:String?
+}
+
+
+struct AppState:StateType {
+    var splashImageInfo:SplashImageInfo?
 }

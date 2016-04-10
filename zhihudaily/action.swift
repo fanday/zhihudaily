@@ -8,19 +8,23 @@
 
 import ReSwift
 
-struct SplashImageUrlActionGet: StandardActionConvertible {
+struct SplashImageInfoActionGet: StandardActionConvertible {
     
-    static let type = "SPLASH_IMAGE_URL_ACTION_GET"
+    static let type = "SPLASH_IMAGE_Info_ACTION_GET"
+    var store:Store<AppState>?
     
-    init() {}
+    init(store:Store<AppState>?) {
+        self.store = store
+    }
     init(_ standardAction: StandardAction) {}
     
     func toStandardAction() -> StandardAction {
-        return StandardAction(type: SplashImageUrlActionGet.type, payload: [:], isTypedAction: true)
+        return StandardAction(type: SplashImageInfoActionGet.type, payload: [:], isTypedAction: true)
     }
     
 }
 
-struct SetSplashImageUrl: Action {
-    let splashImageUrl: String
+struct SetSplashImageInfo: Action {
+    var splashImageInfo: SplashImageInfo
+    var store:Store<AppState>?
 }
